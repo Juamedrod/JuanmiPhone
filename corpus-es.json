@@ -1,0 +1,74 @@
+{
+    "name": "Corpus",
+    "locale": "es",
+    "contextData": "./heros.json",
+    "data": [
+        {
+            "intent": "app.hi",
+            "utterances": [
+                "Hola",
+                "Buenos días",
+                "Buenas tardes",
+                "Hola holita"
+            ],
+            "answers": [
+                {
+                    "answer": "Me estas diciendo que es {{_data.app}}"
+                }
+            ]
+        },
+        {
+            "intent": "app.bye",
+            "utterances": [
+                "Adios",
+                "Hasta luego!",
+                "Hasta la vista",
+                "Nos vemos",
+                "Sayonara",
+                "con Dios"
+            ],
+            "answers": [
+                {
+                    "answer": "Nos vemos en los bares!"
+                }
+            ]
+        },
+        {
+            "intent": "app.city",
+            "utterances": [
+                "tiempo en @city",
+                "¿Cómo está el día en @city",
+                "@city tiempo",
+                "El tiempo en @city"
+            ],
+            "answers": [
+                {
+                    "answer": "La ciudad es {{city}}"
+                },
+                {
+                    "answer": "La ciudad que has seleccionado es {{city}}"
+                }
+            ]
+        }
+    ],
+    "entities": {
+        "city": {
+            "options": {
+                "London": [
+                    "London",
+                    "Londres",
+                    "Londres",
+                    "londres"
+                ],
+                "Madrid": [
+                    "Madrid",
+                    "madrid"
+                ],
+                "Paris": [
+                    "Paris",
+                    "paris"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,263 @@
+{
+  "settings": {
+    "tag": "nlp",
+    "corpora": [
+      "./corpus-es.json"
+    ],
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "es"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "es": {
+        "settings": {
+          "locale": "es",
+          "trainByDomain": false,
+          "tag": "domain-manager-es",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {},
+        "intentDict": {},
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "Hola",
+            "intent": "app.hi"
+          },
+          {
+            "domain": "default",
+            "utterance": "Buenos días",
+            "intent": "app.hi"
+          },
+          {
+            "domain": "default",
+            "utterance": "Buenas tardes",
+            "intent": "app.hi"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hola holita",
+            "intent": "app.hi"
+          },
+          {
+            "domain": "default",
+            "utterance": "Adios",
+            "intent": "app.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hasta luego!",
+            "intent": "app.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hasta la vista",
+            "intent": "app.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Nos vemos",
+            "intent": "app.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "Sayonara",
+            "intent": "app.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "con Dios",
+            "intent": "app.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "tiempo en @city",
+            "intent": "app.city"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Cómo está el día en @city",
+            "intent": "app.city"
+          },
+          {
+            "domain": "default",
+            "utterance": "@city tiempo",
+            "intent": "app.city"
+          },
+          {
+            "domain": "default",
+            "utterance": "El tiempo en @city",
+            "intent": "app.city"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "es",
+              "tag": "nlu-es",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "es",
+        "Hola"
+      ],
+      [
+        "es",
+        "Buenos días"
+      ],
+      [
+        "es",
+        "Buenas tardes"
+      ],
+      [
+        "es",
+        "Hola holita"
+      ],
+      [
+        "es",
+        "Adios"
+      ],
+      [
+        "es",
+        "Hasta luego!"
+      ],
+      [
+        "es",
+        "Hasta la vista"
+      ],
+      [
+        "es",
+        "Nos vemos"
+      ],
+      [
+        "es",
+        "Sayonara"
+      ],
+      [
+        "es",
+        "con Dios"
+      ],
+      [
+        "es",
+        "tiempo en @city"
+      ],
+      [
+        "es",
+        "¿Cómo está el día en @city"
+      ],
+      [
+        "es",
+        "@city tiempo"
+      ],
+      [
+        "es",
+        "El tiempo en @city"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner"
+    },
+    "rules": {
+      "es": {
+        "city": {
+          "name": "city",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "London",
+              "texts": [
+                "London",
+                "Londres",
+                "Londres",
+                "londres"
+              ]
+            },
+            {
+              "option": "Madrid",
+              "texts": [
+                "Madrid",
+                "madrid"
+              ]
+            },
+            {
+              "option": "Paris",
+              "texts": [
+                "Paris",
+                "paris"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "es": {
+        "app.hi": [
+          {
+            "answer": "Me estas diciendo que es {{_data.app}}"
+          }
+        ],
+        "app.bye": [
+          {
+            "answer": "Nos vemos en los bares!"
+          }
+        ],
+        "app.city": [
+          {
+            "answer": "La ciudad es {{city}}"
+          },
+          {
+            "answer": "La ciudad que has seleccionado es {{city}}"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {
+    "app.city": {
+      "city": {
+        "intent": "app.city",
+        "entity": "city",
+        "mandatory": false,
+        "locales": {}
+      }
+    }
+  }
+}
