@@ -28,8 +28,69 @@
           },
           "useStemDict": true
         },
-        "stemDict": {},
-        "intentDict": {},
+        "stemDict": {
+          "hol": {
+            "intent": "app.hi",
+            "domain": "default"
+          },
+          "buen,dia": {
+            "intent": "app.hi",
+            "domain": "default"
+          },
+          "buen,tard": {
+            "intent": "app.hi",
+            "domain": "default"
+          },
+          "hol,holit": {
+            "intent": "app.hi",
+            "domain": "default"
+          },
+          "adi": {
+            "intent": "app.bye",
+            "domain": "default"
+          },
+          "hast,lueg": {
+            "intent": "app.bye",
+            "domain": "default"
+          },
+          "el,hast,vist": {
+            "intent": "app.bye",
+            "domain": "default"
+          },
+          "nos,ver": {
+            "intent": "app.bye",
+            "domain": "default"
+          },
+          "sayon": {
+            "intent": "app.bye",
+            "domain": "default"
+          },
+          "con,dio": {
+            "intent": "app.bye",
+            "domain": "default"
+          },
+          "@city,en,tiemp": {
+            "intent": "app.city",
+            "domain": "default"
+          },
+          "@city,como,dia,el,en,esta": {
+            "intent": "app.city",
+            "domain": "default"
+          },
+          "@city,tiemp": {
+            "intent": "app.city",
+            "domain": "default"
+          },
+          "@city,el,en,tiemp": {
+            "intent": "app.city",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "app.hi": "default",
+          "app.bye": "default",
+          "app.city": "default"
+        },
         "sentences": [
           {
             "domain": "default",
@@ -114,6 +175,238 @@
               "spellCheckDistance": 1,
               "filterZeros": true,
               "log": true
+            },
+            "features": {
+              "hol": 1,
+              "buen": 1,
+              "dia": 1,
+              "tard": 1,
+              "holit": 1,
+              "adi": 1,
+              "hast": 1,
+              "lueg": 1,
+              "el": 1,
+              "vist": 1,
+              "nos": 1,
+              "ver": 1,
+              "sayon": 1,
+              "con": 1,
+              "dio": 1,
+              "tiemp": 1,
+              "en": 1,
+              "@city": 1,
+              "como": 1,
+              "esta": 1
+            },
+            "intents": {
+              "app.hi": 1,
+              "app.bye": 1,
+              "app.city": 1
+            },
+            "intentFeatures": {
+              "app.hi": {
+                "hol": 1,
+                "buen": 1,
+                "dia": 1,
+                "tard": 1,
+                "holit": 1
+              },
+              "app.bye": {
+                "adi": 1,
+                "hast": 1,
+                "lueg": 1,
+                "el": 1,
+                "vist": 1,
+                "nos": 1,
+                "ver": 1,
+                "sayon": 1,
+                "con": 1,
+                "dio": 1
+              },
+              "app.city": {
+                "tiemp": 1,
+                "en": 1,
+                "@city": 1,
+                "como": 1,
+                "esta": 1,
+                "el": 1,
+                "dia": 1
+              }
+            },
+            "featuresToIntent": {
+              "hol": [
+                "app.hi"
+              ],
+              "buen": [
+                "app.hi"
+              ],
+              "dia": [
+                "app.hi",
+                "app.city"
+              ],
+              "tard": [
+                "app.hi"
+              ],
+              "holit": [
+                "app.hi"
+              ],
+              "adi": [
+                "app.bye"
+              ],
+              "hast": [
+                "app.bye"
+              ],
+              "lueg": [
+                "app.bye"
+              ],
+              "el": [
+                "app.bye",
+                "app.city"
+              ],
+              "vist": [
+                "app.bye"
+              ],
+              "nos": [
+                "app.bye"
+              ],
+              "ver": [
+                "app.bye"
+              ],
+              "sayon": [
+                "app.bye"
+              ],
+              "con": [
+                "app.bye"
+              ],
+              "dio": [
+                "app.bye"
+              ],
+              "tiemp": [
+                "app.city"
+              ],
+              "en": [
+                "app.city"
+              ],
+              "@city": [
+                "app.city"
+              ],
+              "como": [
+                "app.city"
+              ],
+              "esta": [
+                "app.city"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "es",
+                "tag": "nlu-es",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "hol",
+                "buen",
+                "dia",
+                "tard",
+                "holit",
+                "adi",
+                "hast",
+                "lueg",
+                "el",
+                "vist",
+                "nos",
+                "ver",
+                "sayon",
+                "con",
+                "dio",
+                "tiemp",
+                "en",
+                "@city",
+                "como",
+                "esta"
+              ],
+              "intents": [
+                "app.hi",
+                "app.bye",
+                "app.city"
+              ],
+              "perceptrons": [
+                [
+                  10.838672637939453,
+                  7.8087873458862305,
+                  3.4625072479248047,
+                  3.470294952392578,
+                  0.6967806220054626,
+                  -2.970763683319092,
+                  -1.7814271450042725,
+                  -1.2098963260650635,
+                  -1.4888862371444702,
+                  -0.5331582427024841,
+                  -1.4953408241271973,
+                  -1.4953408241271973,
+                  -2.9653310775756836,
+                  -1.4940788745880127,
+                  -1.4940788745880127,
+                  -1.0557230710983276,
+                  -1.287063717842102,
+                  -1.9323348999023438,
+                  -0.8761988878250122,
+                  -0.8761988878250122,
+                  2.9975229873002287
+                ],
+                [
+                  -6.609519004821777,
+                  -4.2039947509765625,
+                  -2.5130386352539062,
+                  -2.4308905601501465,
+                  -1.6544133424758911,
+                  7.635614395141602,
+                  4.859726905822754,
+                  2.7901611328125,
+                  0.7197782397270203,
+                  2.0696160793304443,
+                  3.8248956203460693,
+                  3.8248956203460693,
+                  7.633670330047607,
+                  3.824284553527832,
+                  3.824284553527832,
+                  -2.94669246673584,
+                  -1.975520133972168,
+                  -3.6904332637786865,
+                  -0.6244100332260132,
+                  -0.6244100332260132,
+                  6.637136271891663
+                ],
+                [
+                  -0.8331913352012634,
+                  -1.6755462884902954,
+                  0.8670955896377563,
+                  -0.19863367080688477,
+                  -0.24484552443027496,
+                  -0.8282706141471863,
+                  -1.0366419553756714,
+                  -0.22732752561569214,
+                  -0.1572837382555008,
+                  -0.7641811966896057,
+                  -0.4172549843788147,
+                  -0.4172549843788147,
+                  -0.8266310095787048,
+                  -0.41686779260635376,
+                  -0.41686779260635376,
+                  5.474094867706299,
+                  0.3963436186313629,
+                  7.759410381317139,
+                  2.2831616401672363,
+                  2.2831616401672363,
+                  0.8393735630985963
+                ]
+              ]
             }
           }
         }
@@ -225,7 +518,7 @@
       "es": {
         "app.hi": [
           {
-            "answer": "Me estas diciendo que es {{_data.app}}"
+            "answer": "Bienvenido, !Que buenos modales tienes! Otro saludo para tí"
           }
         ],
         "app.bye": [
