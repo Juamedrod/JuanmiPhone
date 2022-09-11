@@ -15,6 +15,18 @@
             "answers": [
                 {
                     "answer": "Bienvenido, !Que buenos modales tienes! Otro saludo para tí"
+                },
+                {
+                    "answer": "Hola amigo, me alegra verte."
+                },
+                {
+                    "answer": "En este mundo, esta cálida recepción inunda mis circuitos de alegría."
+                },
+                {
+                    "answer": "¡Hola!"
+                },
+                {
+                    "answer": "Hellooooo, me alegra verte mi amigo de circuitos orgánicos."
                 }
             ]
         },
@@ -143,35 +155,34 @@
             ]
         },
         {
-            "intent": "app.bonos",
+            "intent": "app.saldo",
             "utterances": [
-                "Bonos",
-                "Bono",
-                "Vono",
-                "ver bonos",
-                "ver mis bonos",
-                "obtener mis bonos",
-                "necesito mis bonos",
-                "Bonos necesito ver",
-                "los bonos",
-                "mis bonos",
-                "bonos activos",
-                "Bonos en mi cuenta",
-                "Bonos en mi numero",
-                "mis bonos activos en mi poder",
-                "los bonos de mi tarjeta",
-                "quiero ver mis bonos",
-                "necesito ver mis bonos",
-                "urgente ver mis bonos",
-                "es muy urgente que vea mis bonos",
-                "necesito ver los bonos ahora mismo",
-                "los bonos mios",
-                "mis bonos queridos",
-                "quiero saber mis bonos"
+                "saldo",
+                "saldo",
+                "Ver saldo",
+                "ver mis saldo",
+                "obtener mis saldo",
+                "necesito mis saldo",
+                "saldo necesito ver",
+                "los saldo",
+                "mis saldo",
+                "saldo activos",
+                "saldo en mi cuenta",
+                "saldo en mi numero",
+                "mis saldo activos en mi poder",
+                "los saldo de mi tarjeta",
+                "quiero ver mis saldo",
+                "necesito ver mis saldo",
+                "urgente ver mis saldo",
+                "es muy urgente que vea mis saldo",
+                "necesito ver los saldo ahora mismo",
+                "los saldo mios",
+                "mis saldo queridos",
+                "quiero saber mis saldo"
             ],
             "answers": [
                 {
-                    "answer": "¿Quieres ver tus bonos?"
+                    "answer": "¿Quieres ver tu saldo? Introduce tu número de teléfono."
                 }
             ]
         },
@@ -204,7 +215,7 @@
             ],
             "answers": [
                 {
-                    "answer": "¿Quieres ver tus bonos?"
+                    "answer": "Para ver tus bonos, introduce tu numero de telefono."
                 }
             ]
         }
