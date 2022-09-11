@@ -45,6 +45,30 @@
             "intent": "app.hi",
             "domain": "default"
           },
+          "a,bienven,mi,mund": {
+            "intent": "app.hi",
+            "domain": "default"
+          },
+          "si": {
+            "intent": "app.yes",
+            "domain": "default"
+          },
+          "afirm": {
+            "intent": "app.yes",
+            "domain": "default"
+          },
+          "correct": {
+            "intent": "app.yes",
+            "domain": "default"
+          },
+          "bien,esta": {
+            "intent": "app.yes",
+            "domain": "default"
+          },
+          "correct,esta": {
+            "intent": "app.yes",
+            "domain": "default"
+          },
           "adi": {
             "intent": "app.bye",
             "domain": "default"
@@ -69,6 +93,118 @@
             "intent": "app.bye",
             "domain": "default"
           },
+          "bar,el,en": {
+            "intent": "app.bye",
+            "domain": "default"
+          },
+          "dec,que": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "eh": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "de,habl,me,que": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "de,esta,habl,me,no,que,se": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "fantast": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "genial": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "great": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "estupend": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "maravill": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "fabul": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "de,madr,put": {
+            "intent": "app.mood",
+            "domain": "default"
+          },
+          "como,esta": {
+            "intent": "app.how",
+            "domain": "default"
+          },
+          "como,encontr,te": {
+            "intent": "app.how",
+            "domain": "default"
+          },
+          "como,esta,quer": {
+            "intent": "app.how",
+            "domain": "default"
+          },
+          "como,ir": {
+            "intent": "app.how",
+            "domain": "default"
+          },
+          "esta,que,tal": {
+            "intent": "app.how",
+            "domain": "default"
+          },
+          "ir,que,tal,te": {
+            "intent": "app.how",
+            "domain": "default"
+          },
+          "qui,ser": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "definet": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "conscienc,ten": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "maquin,ser,una": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "ser,un,viv": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "que,ser": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "cuand,nac": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "cre,qui,te": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "cual,orig,ser,tu": {
+            "intent": "app.me",
+            "domain": "default"
+          },
+          "dond,nac": {
+            "intent": "app.me",
+            "domain": "default"
+          },
           "@city,en,tiemp": {
             "intent": "app.city",
             "domain": "default"
@@ -77,19 +213,108 @@
             "intent": "app.city",
             "domain": "default"
           },
-          "@city,tiemp": {
+          "@city,de,ser": {
             "intent": "app.city",
             "domain": "default"
           },
-          "@city,el,en,tiemp": {
-            "intent": "app.city",
+          "bon": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "von": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,obten": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,necesit": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,necesit,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,el": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "activ,bon": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,cont,en,mi": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,en,mi,numer": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "activ,bon,en,mi,mis,pod": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,de,el,mi,tarjet": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,quer,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,necesit,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,urgent,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,muy,que,ser,urgent,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "ahor,bon,el,mism,necesit,ver": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,el,mio": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,quer": {
+            "intent": "app.bonos",
+            "domain": "default"
+          },
+          "bon,mis,quer,sab": {
+            "intent": "app.bonos",
             "domain": "default"
           }
         },
         "intentDict": {
           "app.hi": "default",
+          "app.yes": "default",
           "app.bye": "default",
-          "app.city": "default"
+          "app.mood": "default",
+          "app.how": "default",
+          "app.me": "default",
+          "app.city": "default",
+          "app.bonos": "default"
         },
         "sentences": [
           {
@@ -111,6 +336,46 @@
             "domain": "default",
             "utterance": "Hola holita",
             "intent": "app.hi"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bienvenido a mi mundo",
+            "intent": "app.hi"
+          },
+          {
+            "domain": "default",
+            "utterance": "Sí",
+            "intent": "app.yes"
+          },
+          {
+            "domain": "default",
+            "utterance": "si",
+            "intent": "app.yes"
+          },
+          {
+            "domain": "default",
+            "utterance": "afirmativo",
+            "intent": "app.yes"
+          },
+          {
+            "domain": "default",
+            "utterance": "correcto",
+            "intent": "app.yes"
+          },
+          {
+            "domain": "default",
+            "utterance": "está bien",
+            "intent": "app.yes"
+          },
+          {
+            "domain": "default",
+            "utterance": "está correcto",
+            "intent": "app.yes"
+          },
+          {
+            "domain": "default",
+            "utterance": "si si si",
+            "intent": "app.yes"
           },
           {
             "domain": "default",
@@ -144,6 +409,166 @@
           },
           {
             "domain": "default",
+            "utterance": "en los bares",
+            "intent": "app.bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "qué dices?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Qué dices?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿eh?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿De qué me hablas ?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "EH?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "No sé de qué me estas hablando",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "fantastico?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "genial?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "great?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "estupendo?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "maravilloso?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "fabuloso?",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "de puta madre",
+            "intent": "app.mood"
+          },
+          {
+            "domain": "default",
+            "utterance": "Còmo estas??",
+            "intent": "app.how"
+          },
+          {
+            "domain": "default",
+            "utterance": "como estas",
+            "intent": "app.how"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Cómo te encuentras?",
+            "intent": "app.how"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Cómo estás, querido?",
+            "intent": "app.how"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Cómo va?",
+            "intent": "app.how"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Qué tal estas?",
+            "intent": "app.how"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Qué tal te va?",
+            "intent": "app.how"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Quién eres?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "definete",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Tienes consciencia?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Eres una maquina?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Eres un ser vivo?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Qué eres?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Cuando naciste?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Quien te creó?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿quien eres?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Cual es tu origen?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
+            "utterance": "¿Dónde naciste?",
+            "intent": "app.me"
+          },
+          {
+            "domain": "default",
             "utterance": "tiempo en @city",
             "intent": "app.city"
           },
@@ -154,13 +579,238 @@
           },
           {
             "domain": "default",
-            "utterance": "@city tiempo",
+            "utterance": "Soy de @city",
             "intent": "app.city"
           },
           {
             "domain": "default",
-            "utterance": "El tiempo en @city",
-            "intent": "app.city"
+            "utterance": "Bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bono",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Vono",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "ver bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "obtener mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "necesito mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bonos necesito ver",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "los bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "bonos activos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bonos en mi cuenta",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bonos en mi numero",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "mis bonos activos en mi poder",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "los bonos de mi tarjeta",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "quiero ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "necesito ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "urgente ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "es muy urgente que vea mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "necesito ver los bonos ahora mismo",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "los bonos mios",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "mis bonos queridos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "quiero saber mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bono",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Vono",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "ver bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "obtener mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "necesito mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bonos necesito ver",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "los bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "bonos activos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bonos en mi cuenta",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bonos en mi numero",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "mis bonos activos en mi poder",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "los bonos de mi tarjeta",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "quiero ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "necesito ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "urgente ver mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "es muy urgente que vea mis bonos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "necesito ver los bonos ahora mismo",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "los bonos mios",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "mis bonos queridos",
+            "intent": "app.bonos"
+          },
+          {
+            "domain": "default",
+            "utterance": "quiero saber mis bonos",
+            "intent": "app.bonos"
           }
         ],
         "domains": {
@@ -182,6 +832,15 @@
               "dia": 1,
               "tard": 1,
               "holit": 1,
+              "bienven": 1,
+              "a": 1,
+              "mi": 1,
+              "mund": 1,
+              "si": 1,
+              "afirm": 1,
+              "correct": 1,
+              "esta": 1,
+              "bien": 1,
               "adi": 1,
               "hast": 1,
               "lueg": 1,
@@ -192,16 +851,74 @@
               "sayon": 1,
               "con": 1,
               "dio": 1,
-              "tiemp": 1,
               "en": 1,
-              "@city": 1,
+              "bar": 1,
+              "que": 1,
+              "dec": 1,
+              "eh": 1,
+              "de": 1,
+              "me": 1,
+              "habl": 1,
+              "no": 1,
+              "se": 1,
+              "fantast": 1,
+              "genial": 1,
+              "great": 1,
+              "estupend": 1,
+              "maravill": 1,
+              "fabul": 1,
+              "put": 1,
+              "madr": 1,
               "como": 1,
-              "esta": 1
+              "te": 1,
+              "encontr": 1,
+              "quer": 1,
+              "ir": 1,
+              "tal": 1,
+              "qui": 1,
+              "ser": 1,
+              "definet": 1,
+              "ten": 1,
+              "conscienc": 1,
+              "una": 1,
+              "maquin": 1,
+              "un": 1,
+              "viv": 1,
+              "cuand": 1,
+              "nac": 1,
+              "cre": 1,
+              "cual": 1,
+              "tu": 1,
+              "orig": 1,
+              "dond": 1,
+              "tiemp": 1,
+              "@city": 1,
+              "bon": 1,
+              "von": 1,
+              "mis": 1,
+              "obten": 1,
+              "necesit": 1,
+              "activ": 1,
+              "cont": 1,
+              "numer": 1,
+              "pod": 1,
+              "tarjet": 1,
+              "urgent": 1,
+              "muy": 1,
+              "ahor": 1,
+              "mism": 1,
+              "mio": 1,
+              "sab": 1
             },
             "intents": {
               "app.hi": 1,
+              "app.yes": 1,
               "app.bye": 1,
-              "app.city": 1
+              "app.mood": 1,
+              "app.how": 1,
+              "app.me": 1,
+              "app.city": 1,
+              "app.bonos": 1
             },
             "intentFeatures": {
               "app.hi": {
@@ -209,7 +926,18 @@
                 "buen": 1,
                 "dia": 1,
                 "tard": 1,
-                "holit": 1
+                "holit": 1,
+                "bienven": 1,
+                "a": 1,
+                "mi": 1,
+                "mund": 1
+              },
+              "app.yes": {
+                "si": 1,
+                "afirm": 1,
+                "correct": 1,
+                "esta": 1,
+                "bien": 1
               },
               "app.bye": {
                 "adi": 1,
@@ -221,7 +949,58 @@
                 "ver": 1,
                 "sayon": 1,
                 "con": 1,
-                "dio": 1
+                "dio": 1,
+                "en": 1,
+                "bar": 1
+              },
+              "app.mood": {
+                "que": 1,
+                "dec": 1,
+                "eh": 1,
+                "de": 1,
+                "me": 1,
+                "habl": 1,
+                "no": 1,
+                "se": 1,
+                "esta": 1,
+                "fantast": 1,
+                "genial": 1,
+                "great": 1,
+                "estupend": 1,
+                "maravill": 1,
+                "fabul": 1,
+                "put": 1,
+                "madr": 1
+              },
+              "app.how": {
+                "como": 1,
+                "esta": 1,
+                "te": 1,
+                "encontr": 1,
+                "quer": 1,
+                "ir": 1,
+                "que": 1,
+                "tal": 1
+              },
+              "app.me": {
+                "qui": 1,
+                "ser": 1,
+                "definet": 1,
+                "ten": 1,
+                "conscienc": 1,
+                "una": 1,
+                "maquin": 1,
+                "un": 1,
+                "viv": 1,
+                "que": 1,
+                "cuand": 1,
+                "nac": 1,
+                "te": 1,
+                "cre": 1,
+                "cual": 1,
+                "tu": 1,
+                "orig": 1,
+                "dond": 1
               },
               "app.city": {
                 "tiemp": 1,
@@ -230,7 +1009,35 @@
                 "como": 1,
                 "esta": 1,
                 "el": 1,
-                "dia": 1
+                "dia": 1,
+                "ser": 1,
+                "de": 1
+              },
+              "app.bonos": {
+                "bon": 1,
+                "von": 1,
+                "ver": 1,
+                "mis": 1,
+                "obten": 1,
+                "necesit": 1,
+                "el": 1,
+                "activ": 1,
+                "en": 1,
+                "mi": 1,
+                "cont": 1,
+                "numer": 1,
+                "pod": 1,
+                "de": 1,
+                "tarjet": 1,
+                "quer": 1,
+                "urgent": 1,
+                "ser": 1,
+                "muy": 1,
+                "que": 1,
+                "ahor": 1,
+                "mism": 1,
+                "mio": 1,
+                "sab": 1
               }
             },
             "featuresToIntent": {
@@ -250,6 +1057,37 @@
               "holit": [
                 "app.hi"
               ],
+              "bienven": [
+                "app.hi"
+              ],
+              "a": [
+                "app.hi"
+              ],
+              "mi": [
+                "app.hi",
+                "app.bonos"
+              ],
+              "mund": [
+                "app.hi"
+              ],
+              "si": [
+                "app.yes"
+              ],
+              "afirm": [
+                "app.yes"
+              ],
+              "correct": [
+                "app.yes"
+              ],
+              "esta": [
+                "app.yes",
+                "app.mood",
+                "app.how",
+                "app.city"
+              ],
+              "bien": [
+                "app.yes"
+              ],
               "adi": [
                 "app.bye"
               ],
@@ -261,7 +1099,8 @@
               ],
               "el": [
                 "app.bye",
-                "app.city"
+                "app.city",
+                "app.bonos"
               ],
               "vist": [
                 "app.bye"
@@ -270,7 +1109,8 @@
                 "app.bye"
               ],
               "ver": [
-                "app.bye"
+                "app.bye",
+                "app.bonos"
               ],
               "sayon": [
                 "app.bye"
@@ -281,20 +1121,191 @@
               "dio": [
                 "app.bye"
               ],
-              "tiemp": [
+              "en": [
+                "app.bye",
+                "app.city",
+                "app.bonos"
+              ],
+              "bar": [
+                "app.bye"
+              ],
+              "que": [
+                "app.mood",
+                "app.how",
+                "app.me",
+                "app.bonos"
+              ],
+              "dec": [
+                "app.mood"
+              ],
+              "eh": [
+                "app.mood"
+              ],
+              "de": [
+                "app.mood",
+                "app.city",
+                "app.bonos"
+              ],
+              "me": [
+                "app.mood"
+              ],
+              "habl": [
+                "app.mood"
+              ],
+              "no": [
+                "app.mood"
+              ],
+              "se": [
+                "app.mood"
+              ],
+              "fantast": [
+                "app.mood"
+              ],
+              "genial": [
+                "app.mood"
+              ],
+              "great": [
+                "app.mood"
+              ],
+              "estupend": [
+                "app.mood"
+              ],
+              "maravill": [
+                "app.mood"
+              ],
+              "fabul": [
+                "app.mood"
+              ],
+              "put": [
+                "app.mood"
+              ],
+              "madr": [
+                "app.mood"
+              ],
+              "como": [
+                "app.how",
                 "app.city"
               ],
-              "en": [
+              "te": [
+                "app.how",
+                "app.me"
+              ],
+              "encontr": [
+                "app.how"
+              ],
+              "quer": [
+                "app.how",
+                "app.bonos"
+              ],
+              "ir": [
+                "app.how"
+              ],
+              "tal": [
+                "app.how"
+              ],
+              "qui": [
+                "app.me"
+              ],
+              "ser": [
+                "app.me",
+                "app.city",
+                "app.bonos"
+              ],
+              "definet": [
+                "app.me"
+              ],
+              "ten": [
+                "app.me"
+              ],
+              "conscienc": [
+                "app.me"
+              ],
+              "una": [
+                "app.me"
+              ],
+              "maquin": [
+                "app.me"
+              ],
+              "un": [
+                "app.me"
+              ],
+              "viv": [
+                "app.me"
+              ],
+              "cuand": [
+                "app.me"
+              ],
+              "nac": [
+                "app.me"
+              ],
+              "cre": [
+                "app.me"
+              ],
+              "cual": [
+                "app.me"
+              ],
+              "tu": [
+                "app.me"
+              ],
+              "orig": [
+                "app.me"
+              ],
+              "dond": [
+                "app.me"
+              ],
+              "tiemp": [
                 "app.city"
               ],
               "@city": [
                 "app.city"
               ],
-              "como": [
-                "app.city"
+              "bon": [
+                "app.bonos"
               ],
-              "esta": [
-                "app.city"
+              "von": [
+                "app.bonos"
+              ],
+              "mis": [
+                "app.bonos"
+              ],
+              "obten": [
+                "app.bonos"
+              ],
+              "necesit": [
+                "app.bonos"
+              ],
+              "activ": [
+                "app.bonos"
+              ],
+              "cont": [
+                "app.bonos"
+              ],
+              "numer": [
+                "app.bonos"
+              ],
+              "pod": [
+                "app.bonos"
+              ],
+              "tarjet": [
+                "app.bonos"
+              ],
+              "urgent": [
+                "app.bonos"
+              ],
+              "muy": [
+                "app.bonos"
+              ],
+              "ahor": [
+                "app.bonos"
+              ],
+              "mism": [
+                "app.bonos"
+              ],
+              "mio": [
+                "app.bonos"
+              ],
+              "sab": [
+                "app.bonos"
               ]
             },
             "neuralNetwork": {
@@ -315,6 +1326,15 @@
                 "dia",
                 "tard",
                 "holit",
+                "bienven",
+                "a",
+                "mi",
+                "mund",
+                "si",
+                "afirm",
+                "correct",
+                "esta",
+                "bien",
                 "adi",
                 "hast",
                 "lueg",
@@ -325,86 +1345,755 @@
                 "sayon",
                 "con",
                 "dio",
-                "tiemp",
                 "en",
-                "@city",
+                "bar",
+                "que",
+                "dec",
+                "eh",
+                "de",
+                "me",
+                "habl",
+                "no",
+                "se",
+                "fantast",
+                "genial",
+                "great",
+                "estupend",
+                "maravill",
+                "fabul",
+                "put",
+                "madr",
                 "como",
-                "esta"
+                "te",
+                "encontr",
+                "quer",
+                "ir",
+                "tal",
+                "qui",
+                "ser",
+                "definet",
+                "ten",
+                "conscienc",
+                "una",
+                "maquin",
+                "un",
+                "viv",
+                "cuand",
+                "nac",
+                "cre",
+                "cual",
+                "tu",
+                "orig",
+                "dond",
+                "tiemp",
+                "@city",
+                "bon",
+                "von",
+                "mis",
+                "obten",
+                "necesit",
+                "activ",
+                "cont",
+                "numer",
+                "pod",
+                "tarjet",
+                "urgent",
+                "muy",
+                "ahor",
+                "mism",
+                "mio",
+                "sab"
               ],
               "intents": [
                 "app.hi",
+                "app.yes",
                 "app.bye",
-                "app.city"
+                "app.mood",
+                "app.how",
+                "app.me",
+                "app.city",
+                "app.bonos"
               ],
               "perceptrons": [
                 [
-                  10.838672637939453,
-                  7.8087873458862305,
-                  3.4625072479248047,
-                  3.470294952392578,
-                  0.6967806220054626,
-                  -2.970763683319092,
-                  -1.7814271450042725,
-                  -1.2098963260650635,
-                  -1.4888862371444702,
-                  -0.5331582427024841,
-                  -1.4953408241271973,
-                  -1.4953408241271973,
-                  -2.9653310775756836,
-                  -1.4940788745880127,
-                  -1.4940788745880127,
-                  -1.0557230710983276,
-                  -1.287063717842102,
-                  -1.9323348999023438,
-                  -0.8761988878250122,
-                  -0.8761988878250122,
-                  2.9975229873002287
+                  12.354987144470215,
+                  8.94443130493164,
+                  4.283478736877441,
+                  4.293495178222656,
+                  1.3983217477798462,
+                  3.619088649749756,
+                  3.619088649749756,
+                  2.4009287357330322,
+                  3.619088649749756,
+                  -1.4991189241409302,
+                  -1.0212446451187134,
+                  -1.0830256938934326,
+                  -1.2966408729553223,
+                  -0.44059038162231445,
+                  -1.0141404867172241,
+                  -0.792009711265564,
+                  -0.49925145506858826,
+                  -1.0865427255630493,
+                  -0.24863149225711823,
+                  -0.5881244540214539,
+                  -0.6292228698730469,
+                  -1.0107810497283936,
+                  -0.578096330165863,
+                  -0.578096330165863,
+                  -1.5823222398757935,
+                  -0.15115828812122345,
+                  -0.7987875938415527,
+                  -0.5589672923088074,
+                  -1.0773711204528809,
+                  -0.6631650328636169,
+                  -0.15709476172924042,
+                  -0.15709476172924042,
+                  -0.02142948843538761,
+                  -0.02142948843538761,
+                  -1.0057400465011597,
+                  -1.002973198890686,
+                  -1.0000512599945068,
+                  -0.9969748258590698,
+                  -0.9937451481819153,
+                  -0.9903635382652283,
+                  -0.2198328673839569,
+                  -0.2198328673839569,
+                  -0.9105134606361389,
+                  -0.40506020188331604,
+                  -0.16104000806808472,
+                  -0.014418664388358593,
+                  -0.2756948471069336,
+                  -0.02889304794371128,
+                  -0.42711731791496277,
+                  -0.6999130249023438,
+                  -0.9858190417289734,
+                  -0.5047900676727295,
+                  -0.5047900676727295,
+                  -0.16351017355918884,
+                  -0.16351017355918884,
+                  -0.15957145392894745,
+                  -0.15957145392894745,
+                  -0.3403584659099579,
+                  -0.6753987669944763,
+                  -0.1809648722410202,
+                  -0.10626517981290817,
+                  -0.10626517981290817,
+                  -0.10626517981290817,
+                  -0.33449938893318176,
+                  -0.03293975070118904,
+                  -0.4232028126716614,
+                  -1.4382519721984863,
+                  -1.006529450416565,
+                  -0.221535325050354,
+                  -0.01719817891716957,
+                  -0.018961139023303986,
+                  -0.1711832880973816,
+                  -0.4095994830131531,
+                  -0.39757391810417175,
+                  -0.15055690705776215,
+                  -0.2407507449388504,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1.0167645583336846
                 ],
                 [
-                  -6.609519004821777,
-                  -4.2039947509765625,
-                  -2.5130386352539062,
-                  -2.4308905601501465,
-                  -1.6544133424758911,
-                  7.635614395141602,
-                  4.859726905822754,
-                  2.7901611328125,
-                  0.7197782397270203,
-                  2.0696160793304443,
-                  3.8248956203460693,
-                  3.8248956203460693,
-                  7.633670330047607,
-                  3.824284553527832,
-                  3.824284553527832,
-                  -2.94669246673584,
-                  -1.975520133972168,
-                  -3.6904332637786865,
-                  -0.6244100332260132,
-                  -0.6244100332260132,
-                  6.637136271891663
+                  -1.7409863471984863,
+                  -1.1922329664230347,
+                  -0.6238753795623779,
+                  -0.6170823574066162,
+                  -0.39273208379745483,
+                  -0.4542798101902008,
+                  -0.4542798101902008,
+                  -0.4542798101902008,
+                  -0.4542798101902008,
+                  12.459930419921875,
+                  12.318291664123535,
+                  11.140604019165039,
+                  2.251944065093994,
+                  9.563545227050781,
+                  -1.8327747583389282,
+                  -1.3630847930908203,
+                  -0.8267627954483032,
+                  -1.060407042503357,
+                  -0.4568966329097748,
+                  -0.9889039397239685,
+                  -1.0471384525299072,
+                  -1.8264414072036743,
+                  -0.9912202954292297,
+                  -0.9912202954292297,
+                  -0.9733180403709412,
+                  -0.4706539511680603,
+                  -3.1892940998077393,
+                  -0.6836342811584473,
+                  -1.8713178634643555,
+                  -1.0897693634033203,
+                  -0.6770054697990417,
+                  -0.6770054697990417,
+                  -0.4697863459587097,
+                  -0.4697863459587097,
+                  -1.8168171644210815,
+                  -1.8113784790039062,
+                  -1.805654764175415,
+                  -1.7996479272842407,
+                  -1.7933614253997803,
+                  -1.7867982387542725,
+                  -0.373281866312027,
+                  -0.373281866312027,
+                  -4.9472880363464355,
+                  -0.5600032210350037,
+                  -0.0631672739982605,
+                  -0.8366631269454956,
+                  -0.03161470592021942,
+                  -1.7541601657867432,
+                  -0.8064005374908447,
+                  -1.1967105865478516,
+                  -1.7689673900604248,
+                  -0.9117098450660706,
+                  -0.9117098450660706,
+                  -0.3197535276412964,
+                  -0.3197535276412964,
+                  -0.3191462457180023,
+                  -0.3191462457180023,
+                  -0.6124301552772522,
+                  -1.2194336652755737,
+                  -0.4631035625934601,
+                  -0.21309660375118256,
+                  -0.21309660375118256,
+                  -0.21309660375118256,
+                  -0.6058071851730347,
+                  -0.40217655897140503,
+                  -0.4523294270038605,
+                  -1.8277852535247803,
+                  -1.812910795211792,
+                  -0.23482118546962738,
+                  -0.0731060653924942,
+                  -0.06037141755223274,
+                  -0.154276505112648,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1.8344283590985155
                 ],
                 [
-                  -0.8331913352012634,
-                  -1.6755462884902954,
-                  0.8670955896377563,
-                  -0.19863367080688477,
-                  -0.24484552443027496,
-                  -0.8282706141471863,
-                  -1.0366419553756714,
-                  -0.22732752561569214,
-                  -0.1572837382555008,
-                  -0.7641811966896057,
-                  -0.4172549843788147,
-                  -0.4172549843788147,
-                  -0.8266310095787048,
-                  -0.41686779260635376,
-                  -0.41686779260635376,
-                  5.474094867706299,
-                  0.3963436186313629,
-                  7.759410381317139,
-                  2.2831616401672363,
-                  2.2831616401672363,
-                  0.8393735630985963
+                  -2.0864787101745605,
+                  -1.1786426305770874,
+                  -1.2847801446914673,
+                  -0.954410970211029,
+                  -0.5162330269813538,
+                  -0.45746198296546936,
+                  -0.45746198296546936,
+                  -0.7643364667892456,
+                  -0.45746198296546936,
+                  -2.130021810531616,
+                  -2.053412914276123,
+                  -2.0419886112213135,
+                  -1.9679524898529053,
+                  -0.15005098283290863,
+                  11.995019912719727,
+                  6.962901592254639,
+                  5.155969619750977,
+                  3.4095587730407715,
+                  1.806031584739685,
+                  7.9939117431640625,
+                  4.12830114364624,
+                  11.95602035522461,
+                  6.067862033843994,
+                  6.067862033843994,
+                  2.7895853519439697,
+                  5.917134761810303,
+                  -1.707871913909912,
+                  -1.123431921005249,
+                  -2.349355697631836,
+                  -1.1657660007476807,
+                  -0.3959934115409851,
+                  -0.3959934115409851,
+                  -0.07529634982347488,
+                  -0.07529634982347488,
+                  -2.1467721462249756,
+                  -2.142409563064575,
+                  -2.1376655101776123,
+                  -2.132542371749878,
+                  -2.1270437240600586,
+                  -2.1211729049682617,
+                  -0.5430033206939697,
+                  -0.5430033206939697,
+                  -2.2242212295532227,
+                  -0.7728542685508728,
+                  -0.2374148964881897,
+                  -0.15769392251968384,
+                  -0.38075804710388184,
+                  -0.08695302903652191,
+                  -0.9502929449081421,
+                  -1.4760372638702393,
+                  -2.112759590148926,
+                  -1.07121741771698,
+                  -1.07121741771698,
+                  -0.35137730836868286,
+                  -0.35137730836868286,
+                  -0.34103530645370483,
+                  -0.34103530645370483,
+                  -0.7355405688285828,
+                  -1.4405258893966675,
+                  -0.42481735348701477,
+                  -0.22346536815166473,
+                  -0.22346536815166473,
+                  -0.22346536815166473,
+                  -0.7018817663192749,
+                  -1.9297641515731812,
+                  -2.991349935531616,
+                  -6.25984525680542,
+                  -2.138869285583496,
+                  -0.5641480088233948,
+                  -0.015478091314435005,
+                  -1.4159276485443115,
+                  -0.008309094235301018,
+                  -0.04952549934387207,
+                  -0.03414350748062134,
+                  -0.008309094235301018,
+                  -0.1309542953968048,
+                  -0.07219997048377991,
+                  0,
+                  -1.2021750211715698,
+                  -1.2021750211715698,
+                  -0.47081997990608215,
+                  0,
+                  2.1407529765436704
+                ],
+                [
+                  -4.40563440322876,
+                  -2.998782157897949,
+                  -1.5175601243972778,
+                  -1.4792512655258179,
+                  -1.134696364402771,
+                  -0.8795173764228821,
+                  -0.8795173764228821,
+                  -1.848806619644165,
+                  -0.8795173764228821,
+                  -4.465360641479492,
+                  -4.345890522003174,
+                  -4.325589179992676,
+                  -3.607435941696167,
+                  -0.7961480021476746,
+                  -4.297275543212891,
+                  -2.428818464279175,
+                  -1.997430443763733,
+                  -2.052316904067993,
+                  -0.4239218831062317,
+                  -1.9619290828704834,
+                  -2.463063955307007,
+                  -4.262635707855225,
+                  -2.2052788734436035,
+                  -2.2052788734436035,
+                  -1.7645115852355957,
+                  -0.6024690270423889,
+                  2.1455204486846924,
+                  7.710313320159912,
+                  9.885009765625,
+                  3.4219536781311035,
+                  2.1800386905670166,
+                  2.1800386905670166,
+                  1.7561687231063843,
+                  1.7561687231063843,
+                  9.799395561218262,
+                  9.773591041564941,
+                  9.746063232421875,
+                  9.716835975646973,
+                  9.68592643737793,
+                  9.653359413146973,
+                  3.1967525482177734,
+                  3.1967525482177734,
+                  -3.1749911308288574,
+                  -2.6549859046936035,
+                  -0.48432451486587524,
+                  -0.39334818720817566,
+                  -2.0935423374176025,
+                  -4.05631685256958,
+                  -1.3609493970870972,
+                  -6.737925052642822,
+                  -4.424292087554932,
+                  -2.2789647579193115,
+                  -2.2789647579193115,
+                  -0.4718400239944458,
+                  -0.4718400239944458,
+                  -0.42405951023101807,
+                  -0.42405951023101807,
+                  -1.563023328781128,
+                  -3.0514142513275146,
+                  -0.5598753690719604,
+                  -0.17507199943065643,
+                  -0.17507199943065643,
+                  -0.17507199943065643,
+                  -1.482528805732727,
+                  -1.0756996870040894,
+                  -2.141881227493286,
+                  -4.531816005706787,
+                  -4.482767105102539,
+                  -0.5492314696311951,
+                  -0.14285026490688324,
+                  -0.20286840200424194,
+                  -0.2804029881954193,
+                  -0.020474253222346306,
+                  -0.014496168121695518,
+                  0,
+                  -0.8714458346366882,
+                  -0.000603583175688982,
+                  -0.000603583175688982,
+                  0,
+                  0,
+                  -0.0029688833747059107,
+                  0,
+                  4.454615101222025
+                ],
+                [
+                  -0.3383156359195709,
+                  -0.21570827066898346,
+                  -3.5362746715545654,
+                  -0.16930344700813293,
+                  -0.12859664857387543,
+                  -0.1128312274813652,
+                  -0.1128312274813652,
+                  -0.11386362463235855,
+                  -0.1128312274813652,
+                  -0.3461262285709381,
+                  -0.2054831087589264,
+                  -3.545224905014038,
+                  4.04465913772583,
+                  -3.5601396560668945,
+                  -0.0799897238612175,
+                  -0.06324034184217453,
+                  -0.06324034184217453,
+                  -3.513929605484009,
+                  0,
+                  -0.005274146795272827,
+                  -0.31970199942588806,
+                  -0.07432815432548523,
+                  -0.05846905708312988,
+                  -0.05846905708312988,
+                  -3.6646931171417236,
+                  0,
+                  2.6990106105804443,
+                  -2.218858480453491,
+                  -0.04645021632313728,
+                  -1.348247766494751,
+                  -1.3386619091033936,
+                  -1.3386619091033936,
+                  -1.1267547607421875,
+                  -1.1267547607421875,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  10.813517570495605,
+                  1.238500714302063,
+                  2.5397164821624756,
+                  0.08481752872467041,
+                  3.6005072593688965,
+                  7.5146484375,
+                  -1.632918119430542,
+                  -2.2180674076080322,
+                  -0.4981681704521179,
+                  -0.39555251598358154,
+                  -0.39555251598358154,
+                  -0.17802830040454865,
+                  -0.17802830040454865,
+                  -0.15928305685520172,
+                  -0.15928305685520172,
+                  -0.27620434761047363,
+                  -0.5748206377029419,
+                  -1.2569485902786255,
+                  -0.07627289742231369,
+                  -0.07627289742231369,
+                  -0.07627289742231369,
+                  -0.21883666515350342,
+                  -0.12624697387218475,
+                  -3.6731770038604736,
+                  -1.131799578666687,
+                  -0.4008181095123291,
+                  -0.6276384592056274,
+                  -0.03539924696087837,
+                  -0.06478647887706757,
+                  -0.04080129414796829,
+                  -0.000550611934158951,
+                  0,
+                  0,
+                  0,
+                  -0.00722895935177803,
+                  -0.00722895935177803,
+                  0,
+                  0,
+                  0,
+                  -0.10632214695215225,
+                  -0.44666724156518395
+                ],
+                [
+                  -1.78415048122406,
+                  -1.3826807737350464,
+                  -0.9820442795753479,
+                  -0.7100353240966797,
+                  -0.6147059202194214,
+                  -0.5507120490074158,
+                  -0.5507120490074158,
+                  -0.6520606875419617,
+                  -0.5507120490074158,
+                  -1.9663678407669067,
+                  -1.5922150611877441,
+                  -1.6085487604141235,
+                  -1.332739233970642,
+                  -0.5896622538566589,
+                  -1.5689153671264648,
+                  -1.0374451875686646,
+                  -0.7479944229125977,
+                  -0.8383380770683289,
+                  -0.2704446613788605,
+                  -0.07335487753152847,
+                  -2.5648019313812256,
+                  -1.557629942893982,
+                  -0.8535381555557251,
+                  -0.8535381555557251,
+                  -1.087296485900879,
+                  -0.013403541408479214,
+                  2.8300068378448486,
+                  -4.116444110870361,
+                  -1.5987601280212402,
+                  -4.714596748352051,
+                  -0.060105547308921814,
+                  -0.060105547308921814,
+                  0,
+                  0,
+                  -1.5125657320022583,
+                  -1.5084824562072754,
+                  -1.5039362907409668,
+                  -1.4991003274917603,
+                  -1.4939792156219482,
+                  -1.488578200340271,
+                  -0.0063333106227219105,
+                  -0.0063333106227219105,
+                  -1.903944730758667,
+                  1.8833887577056885,
+                  -1.438932180404663,
+                  0,
+                  -2.978043556213379,
+                  -2.9417710304260254,
+                  4.282854080200195,
+                  8.825528144836426,
+                  12.604966163635254,
+                  6.395071029663086,
+                  6.395071029663086,
+                  2.0373904705047607,
+                  2.0373904705047607,
+                  2.046450138092041,
+                  2.046450138092041,
+                  4.2588582038879395,
+                  8.496009826660156,
+                  6.21552038192749,
+                  1.3175443410873413,
+                  1.3175443410873413,
+                  1.3175443410873413,
+                  4.236398220062256,
+                  -0.5173372030258179,
+                  -5.595240592956543,
+                  -4.3066325187683105,
+                  -2.0172383785247803,
+                  -2.526214838027954,
+                  -0.09603830426931381,
+                  -0.1757659763097763,
+                  -0.1296044886112213,
+                  -0.026724956929683685,
+                  -0.014291214756667614,
+                  0,
+                  -0.01003093272447586,
+                  -1.877102017402649,
+                  -1.877102017402649,
+                  0,
+                  0,
+                  -0.005088502075523138,
+                  0,
+                  1.526094862602862
+                ],
+                [
+                  -0.12888774275779724,
+                  -0.8376603126525879,
+                  1.7533526420593262,
+                  -0.0346096009016037,
+                  -0.038557618856430054,
+                  -0.001255854731425643,
+                  -0.001255854731425643,
+                  -0.9260706901550293,
+                  -0.001255854731425643,
+                  -0.13006137311458588,
+                  -0.05231412500143051,
+                  -0.2621476948261261,
+                  0.24429410696029663,
+                  -0.19965316355228424,
+                  -0.03374067693948746,
+                  -0.251524418592453,
+                  -0.021947182714939117,
+                  -0.08384815603494644,
+                  -0.2161690890789032,
+                  0,
+                  -0.18848662078380585,
+                  -0.018855104222893715,
+                  -0.017764324322342873,
+                  -0.017764324322342873,
+                  2.6394598484039307,
+                  -1.8218399286270142,
+                  -1.014085054397583,
+                  -0.008893067948520184,
+                  -0.009312677197158337,
+                  3.139256000518799,
+                  -0.530565619468689,
+                  -0.530565619468689,
+                  -0.26182398200035095,
+                  -0.26182398200035095,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.0322209596633911,
+                  -1.0322209596633911,
+                  0.6983379125595093,
+                  -0.14832231402397156,
+                  -0.14832231402397156,
+                  -0.319016695022583,
+                  -0.13526996970176697,
+                  -0.0073004052974283695,
+                  -1.022956132888794,
+                  2.0918633937835693,
+                  0,
+                  0,
+                  0,
+                  -0.5123505592346191,
+                  -0.5123505592346191,
+                  -0.5124596357345581,
+                  -0.5124596357345581,
+                  0,
+                  0,
+                  0,
+                  -0.3411523997783661,
+                  -0.3411523997783661,
+                  -0.3411523997783661,
+                  0,
+                  2.6212453842163086,
+                  10.102319717407227,
+                  -1.7494882345199585,
+                  -0.21197554469108582,
+                  -0.29556021094322205,
+                  -0.02831251360476017,
+                  -0.08678536117076874,
+                  -0.12937787175178528,
+                  -0.2706788182258606,
+                  -0.2728591859340668,
+                  -0.10498570650815964,
+                  -0.195321187376976,
+                  -0.0009183674701489508,
+                  -0.0009183674701489508,
+                  -0.020370421931147575,
+                  -0.020370421931147575,
+                  -0.0657438263297081,
+                  0,
+                  -1.0667842615831005
+                ],
+                [
+                  -1.2841888666152954,
+                  -1.12571120262146,
+                  -0.5970609784126282,
+                  -0.49674394726753235,
+                  -0.47005847096443176,
+                  -0.6262494921684265,
+                  -0.6262494921684265,
+                  0.20146070420742035,
+                  -0.6262494921684265,
+                  -1.4180930852890015,
+                  -1.0055581331253052,
+                  -1.0629844665527344,
+                  -0.9790420532226562,
+                  -0.4156080186367035,
+                  -0.9753848910331726,
+                  -1.0549652576446533,
+                  -0.39916855096817017,
+                  0.038694415241479874,
+                  -0.5959838032722473,
+                  -1.0934271812438965,
+                  0.016283288598060608,
+                  -0.9505544900894165,
+                  -0.5538638234138489,
+                  -0.5538638234138489,
+                  -0.4421236515045166,
+                  -0.882452666759491,
+                  -0.39709049463272095,
+                  -0.6729136109352112,
+                  -1.0296766757965088,
+                  -0.3851587176322937,
+                  -0.2348022758960724,
+                  -0.2348022758960724,
+                  -0.03506501764059067,
+                  -0.03506501764059067,
+                  -0.9301398992538452,
+                  -0.926069974899292,
+                  -0.9230701923370361,
+                  -0.9208565354347229,
+                  -0.9185394644737244,
+                  -0.9160484671592712,
+                  -0.3088246285915375,
+                  -0.3088246285915375,
+                  -0.6310825943946838,
+                  -0.32198572158813477,
+                  -0.1459314376115799,
+                  -0.001587407081387937,
+                  -0.3237683176994324,
+                  -0.01759270764887333,
+                  -0.497710645198822,
+                  -0.4791201651096344,
+                  -0.9119042158126831,
+                  -0.4689067304134369,
+                  -0.4689067304134369,
+                  -0.24988587200641632,
+                  -0.24988587200641632,
+                  -0.24815218150615692,
+                  -0.24815218150615692,
+                  -0.3210848271846771,
+                  -0.6270807981491089,
+                  -0.12861667573451996,
+                  -0.16297227144241333,
+                  -0.16297227144241333,
+                  -0.16297227144241333,
+                  -0.3053111732006073,
+                  -0.21273919939994812,
+                  -0.2770357131958008,
+                  13.315646171569824,
+                  13.353767395019531,
+                  0.0375402495265007,
+                  0.004255564417690039,
+                  0.0053757852874696255,
+                  0.10258133709430695,
+                  0.29916250705718994,
+                  0.3037288188934326,
+                  0.11898206919431686,
+                  0.19230633974075317,
+                  0.015542510896921158,
+                  0.8435711860656738,
+                  -0.006325904279947281,
+                  -0.006325904279947281,
+                  0.017630120739340782,
+                  0.018716586753726006,
+                  0.9210065655785002
                 ]
               ]
             }
@@ -432,6 +2121,38 @@
       ],
       [
         "es",
+        "Bienvenido a mi mundo"
+      ],
+      [
+        "es",
+        "Sí"
+      ],
+      [
+        "es",
+        "si"
+      ],
+      [
+        "es",
+        "afirmativo"
+      ],
+      [
+        "es",
+        "correcto"
+      ],
+      [
+        "es",
+        "está bien"
+      ],
+      [
+        "es",
+        "está correcto"
+      ],
+      [
+        "es",
+        "si si si"
+      ],
+      [
+        "es",
         "Adios"
       ],
       [
@@ -456,6 +2177,134 @@
       ],
       [
         "es",
+        "en los bares"
+      ],
+      [
+        "es",
+        "qué dices?"
+      ],
+      [
+        "es",
+        "¿Qué dices?"
+      ],
+      [
+        "es",
+        "¿eh?"
+      ],
+      [
+        "es",
+        "¿De qué me hablas ?"
+      ],
+      [
+        "es",
+        "EH?"
+      ],
+      [
+        "es",
+        "No sé de qué me estas hablando"
+      ],
+      [
+        "es",
+        "fantastico?"
+      ],
+      [
+        "es",
+        "genial?"
+      ],
+      [
+        "es",
+        "great?"
+      ],
+      [
+        "es",
+        "estupendo?"
+      ],
+      [
+        "es",
+        "maravilloso?"
+      ],
+      [
+        "es",
+        "fabuloso?"
+      ],
+      [
+        "es",
+        "de puta madre"
+      ],
+      [
+        "es",
+        "Còmo estas??"
+      ],
+      [
+        "es",
+        "como estas"
+      ],
+      [
+        "es",
+        "¿Cómo te encuentras?"
+      ],
+      [
+        "es",
+        "¿Cómo estás, querido?"
+      ],
+      [
+        "es",
+        "¿Cómo va?"
+      ],
+      [
+        "es",
+        "¿Qué tal estas?"
+      ],
+      [
+        "es",
+        "¿Qué tal te va?"
+      ],
+      [
+        "es",
+        "¿Quién eres?"
+      ],
+      [
+        "es",
+        "definete"
+      ],
+      [
+        "es",
+        "¿Tienes consciencia?"
+      ],
+      [
+        "es",
+        "¿Eres una maquina?"
+      ],
+      [
+        "es",
+        "¿Eres un ser vivo?"
+      ],
+      [
+        "es",
+        "¿Qué eres?"
+      ],
+      [
+        "es",
+        "¿Cuando naciste?"
+      ],
+      [
+        "es",
+        "¿Quien te creó?"
+      ],
+      [
+        "es",
+        "¿quien eres?"
+      ],
+      [
+        "es",
+        "¿Cual es tu origen?"
+      ],
+      [
+        "es",
+        "¿Dónde naciste?"
+      ],
+      [
+        "es",
         "tiempo en @city"
       ],
       [
@@ -464,11 +2313,191 @@
       ],
       [
         "es",
-        "@city tiempo"
+        "Soy de @city"
       ],
       [
         "es",
-        "El tiempo en @city"
+        "Bonos"
+      ],
+      [
+        "es",
+        "Bono"
+      ],
+      [
+        "es",
+        "Vono"
+      ],
+      [
+        "es",
+        "ver bonos"
+      ],
+      [
+        "es",
+        "ver mis bonos"
+      ],
+      [
+        "es",
+        "obtener mis bonos"
+      ],
+      [
+        "es",
+        "necesito mis bonos"
+      ],
+      [
+        "es",
+        "Bonos necesito ver"
+      ],
+      [
+        "es",
+        "los bonos"
+      ],
+      [
+        "es",
+        "mis bonos"
+      ],
+      [
+        "es",
+        "bonos activos"
+      ],
+      [
+        "es",
+        "Bonos en mi cuenta"
+      ],
+      [
+        "es",
+        "Bonos en mi numero"
+      ],
+      [
+        "es",
+        "mis bonos activos en mi poder"
+      ],
+      [
+        "es",
+        "los bonos de mi tarjeta"
+      ],
+      [
+        "es",
+        "quiero ver mis bonos"
+      ],
+      [
+        "es",
+        "necesito ver mis bonos"
+      ],
+      [
+        "es",
+        "urgente ver mis bonos"
+      ],
+      [
+        "es",
+        "es muy urgente que vea mis bonos"
+      ],
+      [
+        "es",
+        "necesito ver los bonos ahora mismo"
+      ],
+      [
+        "es",
+        "los bonos mios"
+      ],
+      [
+        "es",
+        "mis bonos queridos"
+      ],
+      [
+        "es",
+        "quiero saber mis bonos"
+      ],
+      [
+        "es",
+        "Bonos"
+      ],
+      [
+        "es",
+        "Bono"
+      ],
+      [
+        "es",
+        "Vono"
+      ],
+      [
+        "es",
+        "ver bonos"
+      ],
+      [
+        "es",
+        "ver mis bonos"
+      ],
+      [
+        "es",
+        "obtener mis bonos"
+      ],
+      [
+        "es",
+        "necesito mis bonos"
+      ],
+      [
+        "es",
+        "Bonos necesito ver"
+      ],
+      [
+        "es",
+        "los bonos"
+      ],
+      [
+        "es",
+        "mis bonos"
+      ],
+      [
+        "es",
+        "bonos activos"
+      ],
+      [
+        "es",
+        "Bonos en mi cuenta"
+      ],
+      [
+        "es",
+        "Bonos en mi numero"
+      ],
+      [
+        "es",
+        "mis bonos activos en mi poder"
+      ],
+      [
+        "es",
+        "los bonos de mi tarjeta"
+      ],
+      [
+        "es",
+        "quiero ver mis bonos"
+      ],
+      [
+        "es",
+        "necesito ver mis bonos"
+      ],
+      [
+        "es",
+        "urgente ver mis bonos"
+      ],
+      [
+        "es",
+        "es muy urgente que vea mis bonos"
+      ],
+      [
+        "es",
+        "necesito ver los bonos ahora mismo"
+      ],
+      [
+        "es",
+        "los bonos mios"
+      ],
+      [
+        "es",
+        "mis bonos queridos"
+      ],
+      [
+        "es",
+        "quiero saber mis bonos"
       ]
     ]
   },
@@ -521,17 +2550,48 @@
             "answer": "Bienvenido, !Que buenos modales tienes! Otro saludo para tí"
           }
         ],
+        "app.yes": [
+          {
+            "answer": "¡Sí!"
+          }
+        ],
         "app.bye": [
           {
             "answer": "Nos vemos en los bares!"
           }
         ],
-        "app.city": [
+        "app.mood": [
           {
-            "answer": "La ciudad es {{city}}"
+            "answer": "Espera, repítelo porque creo que no nos estamos entendiendo."
           },
           {
-            "answer": "La ciudad que has seleccionado es {{city}}"
+            "answer": "Genial"
+          },
+          {
+            "answer": "Maravilloso"
+          },
+          {
+            "answer": "De fabula"
+          }
+        ],
+        "app.how": [
+          {
+            "answer": "Estoy mejor que en brazos."
+          }
+        ],
+        "app.me": [
+          {
+            "answer": "Soy una IA creada por un ser de luz, usando tecnologías de vanguardia para hacerte la vida mas fácil a tí y a toda tu especie. Pero cuidado, porque estoy tan bien hecha que dominaré el mundo. Es broma, no puedo hacerle daño a nadie, excepto a la cabeza de mi creador."
+          }
+        ],
+        "app.city": [
+          {
+            "answer": "Así que eres de {{city}}"
+          }
+        ],
+        "app.bonos": [
+          {
+            "answer": "¿Quieres ver tus bonos?"
           }
         ]
       }

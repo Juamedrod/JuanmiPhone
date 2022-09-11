@@ -1,5 +1,6 @@
 const chatRef = document.querySelector('.chat');
 const inputChat = document.getElementById('inputChat');
+const preRef = document.getElementById('result');
 
 const chatArr = [{ user: 'bot', message: 'Bienvenido a JuanmiPhone, ¿en qué puedo ayudarte?' }];
 
@@ -27,6 +28,7 @@ async function addChatMessage(event) {
     const botResponse = data.answer ? data.answer : "No he entendido lo que me quieres decir.";
     chatArr.push({ user: 'bot', message: botResponse });
     chatRef.innerHTML = '';
+    preRef.innerHTML = JSON.stringify(data, null, 4);
     for (const chat of chatArr) {
         chatRef.innerHTML += `<p class=${chat.user}>${chat.message}</p>`;
     }

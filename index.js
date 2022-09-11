@@ -34,9 +34,6 @@ app.use('/', indexRouter);
     /* await nlp.import(data); */
     global.nlp = nlp;
 
-    const resp = await nlp.process('Hola');
-    console.log(resp);
-
     app.listen((process.env.PORT || port), () => {
         console.log(`\n /*************************************\n 
         My first nlp App listening on port ${port} 

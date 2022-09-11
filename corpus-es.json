@@ -9,11 +9,29 @@
                 "Hola",
                 "Buenos días",
                 "Buenas tardes",
-                "Hola holita"
+                "Hola holita",
+                "Bienvenido a mi mundo"
             ],
             "answers": [
                 {
                     "answer": "Bienvenido, !Que buenos modales tienes! Otro saludo para tí"
+                }
+            ]
+        },
+        {
+            "intent": "app.yes",
+            "utterances": [
+                "Sí",
+                "si",
+                "afirmativo",
+                "correcto",
+                "está bien",
+                "está correcto",
+                "si si si"
+            ],
+            "answers": [
+                {
+                    "answer": "¡Sí!"
                 }
             ]
         },
@@ -25,7 +43,8 @@
                 "Hasta la vista",
                 "Nos vemos",
                 "Sayonara",
-                "con Dios"
+                "con Dios",
+                "en los bares"
             ],
             "answers": [
                 {
@@ -34,19 +53,158 @@
             ]
         },
         {
+            "intent": "app.mood",
+            "utterances": [
+                "qué dices?",
+                "¿Qué dices?",
+                "¿eh?",
+                "¿De qué me hablas ?",
+                "EH?",
+                "No sé de qué me estas hablando"
+            ],
+            "answers": [
+                {
+                    "answer": "Espera, repítelo porque creo que no nos estamos entendiendo."
+                }
+            ]
+        },
+        {
+            "intent": "app.mood",
+            "utterances": [
+                "fantastico?",
+                "genial?",
+                "great?",
+                "estupendo?",
+                "maravilloso?",
+                "fabuloso?",
+                "de puta madre"
+            ],
+            "answers": [
+                {
+                    "answer": "Genial"
+                },
+                {
+                    "answer": "Maravilloso"
+                },
+                {
+                    "answer": "De fabula"
+                }
+            ]
+        },
+        {
+            "intent": "app.how",
+            "utterances": [
+                "Còmo estas??",
+                "como estas",
+                "¿Cómo te encuentras?",
+                "¿Cómo estás, querido?",
+                "¿Cómo va?",
+                "¿Qué tal estas?",
+                "¿Qué tal te va?"
+            ],
+            "answers": [
+                {
+                    "answer": "Estoy mejor que en brazos."
+                }
+            ]
+        },
+        {
+            "intent": "app.me",
+            "utterances": [
+                "¿Quién eres?",
+                "definete",
+                "¿Tienes consciencia?",
+                "¿Eres una maquina?",
+                "¿Eres un ser vivo?",
+                "¿Qué eres?",
+                "¿Cuando naciste?",
+                "¿Quien te creó?",
+                "¿quien eres?",
+                "¿Cual es tu origen?",
+                "¿Dónde naciste?"
+            ],
+            "answers": [
+                {
+                    "answer": "Soy una IA creada por un ser de luz, usando tecnologías de vanguardia para hacerte la vida mas fácil a tí y a toda tu especie. Pero cuidado, porque estoy tan bien hecha que dominaré el mundo. Es broma, no puedo hacerle daño a nadie, excepto a la cabeza de mi creador."
+                }
+            ]
+        },
+        {
             "intent": "app.city",
             "utterances": [
                 "tiempo en @city",
                 "¿Cómo está el día en @city",
-                "@city tiempo",
-                "El tiempo en @city"
+                "Soy de @city"
             ],
             "answers": [
                 {
-                    "answer": "La ciudad es {{city}}"
-                },
+                    "answer": "Así que eres de {{city}}"
+                }
+            ]
+        },
+        {
+            "intent": "app.bonos",
+            "utterances": [
+                "Bonos",
+                "Bono",
+                "Vono",
+                "ver bonos",
+                "ver mis bonos",
+                "obtener mis bonos",
+                "necesito mis bonos",
+                "Bonos necesito ver",
+                "los bonos",
+                "mis bonos",
+                "bonos activos",
+                "Bonos en mi cuenta",
+                "Bonos en mi numero",
+                "mis bonos activos en mi poder",
+                "los bonos de mi tarjeta",
+                "quiero ver mis bonos",
+                "necesito ver mis bonos",
+                "urgente ver mis bonos",
+                "es muy urgente que vea mis bonos",
+                "necesito ver los bonos ahora mismo",
+                "los bonos mios",
+                "mis bonos queridos",
+                "quiero saber mis bonos"
+            ],
+            "answers": [
                 {
-                    "answer": "La ciudad que has seleccionado es {{city}}"
+                    "answer": "¿Quieres ver tus bonos?"
+                }
+            ]
+        },
+        {
+            "intent": "app.bonos",
+            "utterances": [
+                "Bonos",
+                "Bono",
+                "Vono",
+                "ver bonos",
+                "ver mis bonos",
+                "obtener mis bonos",
+                "necesito mis bonos",
+                "Bonos necesito ver",
+                "los bonos",
+                "mis bonos",
+                "bonos activos",
+                "Bonos en mi cuenta",
+                "Bonos en mi numero",
+                "mis bonos activos en mi poder",
+                "los bonos de mi tarjeta",
+                "quiero ver mis bonos",
+                "necesito ver mis bonos",
+                "urgente ver mis bonos",
+                "es muy urgente que vea mis bonos",
+                "necesito ver los bonos ahora mismo",
+                "los bonos mios",
+                "mis bonos queridos",
+                "quiero saber mis bonos"
+            ],
+            "answers": [
+                {
+                    "answer": "¿Quieres ver tus bonos?"
                 }
             ]
         }

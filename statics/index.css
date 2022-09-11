@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Nunito;
 }
 
 img {
@@ -75,4 +78,34 @@ input::placeholder {
     text-align: right;
     font-style: italic;
     padding: 0.5rem;
+}
+
+pre {
+    font-family: Consolas, "courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+    overflow: auto;
+}
+
+.col2 p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    color: crimson;
+}
+
+
+@media screen and (max-width:600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .col1,
+    .col2 {
+        width: 100%;
+    }
+
+
 }
