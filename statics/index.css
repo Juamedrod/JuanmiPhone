@@ -17,8 +17,17 @@ h1 {
     text-align: center;
 }
 
+.container {
+    display: flex;
+}
+
+.col1,
+.col2 {
+    width: 50%;
+}
+
 .chat {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
     border: 1px solid indigo;
     border-radius: 5px;
@@ -26,7 +35,7 @@ h1 {
 }
 
 .input-box {
-    width: 40%;
+    width: 90%;
     height: 2rem;
     margin: 1rem auto;
     border: 1px solid indigo;
